@@ -42,14 +42,14 @@ const BlogPostTemplate = ({
           }}
         >
           <li>
-            {previous && (
+            {previous?.published && (
               <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
-            {next && (
+            {next?.published && (
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>

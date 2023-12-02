@@ -80,6 +80,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  background-color: var(--color-accent-global-focus-wrapper);
 }
 
 footer {
@@ -239,9 +240,7 @@ a:focus {
 
 /* Custom classes */
 
-#gatsby-focus-wrapper {
-  background-color: var(--color-accent-global-focus-wrapper);
-}
+
 
 .global-wrapper {
   margin: var(--spacing-0) auto;

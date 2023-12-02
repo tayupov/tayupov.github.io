@@ -96,6 +96,7 @@ module.exports = {
                   frontmatter {
                     title
                     date
+                    published
                   }
                 }
               }
