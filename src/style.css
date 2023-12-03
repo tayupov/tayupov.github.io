@@ -58,7 +58,7 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
-  --color-accent-global-focus-wrapper: #fdfaf5;
+  --color-highlight: #DD2E1F;
 }
 
 /* HTML elements */
@@ -231,6 +231,8 @@ table thead tr th {
 
 a {
   color: var(--color-primary);
+  text-decoration-color: var(--color-highlight);
+  -webkit-text-decoration-color: var(--color-highlight)
 }
 
 a:hover,
@@ -272,7 +274,7 @@ a:focus {
 
 .post-list-item a {
   text-decoration: none;
-  background-image: linear-gradient(#DD2E1F, #DD2E1F);
+  background-image: linear-gradient(var(--color-highlight), var(--color-highlight));
   background-size: 0% 0.1em;
   background-position-y: 100%;
   background-position-x: 0%;
