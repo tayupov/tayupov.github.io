@@ -70,7 +70,7 @@ export default BlogIndex
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Against the grain" />
+export const Head = () => <Seo title="Blog" />
 
 export const pageQuery = graphql`
   {
