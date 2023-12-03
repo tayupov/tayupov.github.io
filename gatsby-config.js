@@ -13,10 +13,9 @@ module.exports = {
     author: {
       name: `Roman Tayupov`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Thoughts and feelings on software development, product management, music and games. Written by Roman Tayupov.`,
+    siteUrl: `https://tayupov.github.io/`,
     social: {
-      twitter: `kylemathews`,
     },
   },
   plugins: [
