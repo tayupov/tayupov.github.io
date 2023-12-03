@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Thoughts and feelings on software development, product management, music and games. Written by Roman Tayupov.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
