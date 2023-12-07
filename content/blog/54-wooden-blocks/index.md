@@ -1,7 +1,7 @@
 ---
 title: 54 wooden blocks
 date: "2023-12-03"
-description: "Dealing with the dreading PM interview question of your favorite product and what wooden blocks have to do with it."
+description: ""
 published: true
 ---
 
