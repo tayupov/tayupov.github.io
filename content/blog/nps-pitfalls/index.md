@@ -10,7 +10,9 @@ published: true
 
 ---
 
-You've just launched a new revolutionary product and senior leadership wants to know how it's doing. They're overseeing many products these days and suggest you go for a metric they're familiar with - the ol' reliable Net Promoter Score (NPS). You start drafting the survey, but hold up - there's some things you should know.
+You've just launched a new revolutionary product and senior leadership wants to know how it's doing. They're overseeing many products these days and suggest you go for a metric they're familiar with - the ol' reliable Net Promoter Score (NPS).
+
+You start drafting the survey, but hold up - there are some things you should know first.
 
 ### What is NPS?
 
