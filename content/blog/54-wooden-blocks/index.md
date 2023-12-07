@@ -26,6 +26,7 @@ I recently helped a friend prepare for an interview, and we discussed how tackli
 I couldn't help but think of a game myself and chose [Jenga](https://en.wikipedia.org/wiki/Jenga). 
 
 ![Jenga](./jenga.jpg)
+*Jenga Tower*
 
 > Jenga is a game of physical skill [...]. Players take turns removing one block at a time from a tower constructed of 54 blocks. Each block removed is then placed on top of the tower, creating a progressively more unstable structure. The game ends when any portion of the tower collapses, caused by either the removal of a block or its new placement. The last player to complete a turn before the collapse is the winner. 
 

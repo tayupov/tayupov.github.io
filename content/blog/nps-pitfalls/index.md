@@ -21,6 +21,7 @@ NPS stands for Net Promoter Score, a metric used to measure customer satisfactio
 It measures customer satisfaction, based on a simple question:
 
 ![NPS Question](./nps-question.png)
+*NPS Question*
 
 Respondents give a rating from 0 (not likely at all) to 10 (very likely) and depending on their response fall into one of 3 categories:
 
@@ -72,6 +73,7 @@ How the NPS question is phrased implies that users will or will not recommend it
 It becomes obvious when you consider that not all products are discussed extensively among peers (or friends and family).
 
 ![Windows 10](./windows10.png)
+*Microsoft Windows 10 NPS Survey*
 
 Although discussions about recommending operating systems are a lot more common than this respondent might realize (ask any Linux user), it's still common to send NPS surveys when the intended growth mechanism of a product doesn't align.
 
