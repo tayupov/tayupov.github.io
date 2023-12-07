@@ -83,6 +83,6 @@ This should go without saying, but over-relying on NPS to make decisions is prob
 
 At [Adevinta](https://adevinta.com/) we recently started measuring developer experience in a company-wide survey. I cannot overstate enough, how difficult it is to effectively measure satisfaction. Developer experience has too many aspects to summarise in a single metric.
 
-The way I see it, NPS became popular because it's an easy-to-digest metric for executives and it underplays product-market dynamics. NPS is valuable, but it should be complemented with other metrics for a comprehensive understanding of customer satisfaction.
+The way I see it, NPS became popular because it's an easy-to-digest metric for executives and it trivializes product-market dynamics. NPS is valuable, but it should be complemented with other metrics for a comprehensive understanding of customer satisfaction.
 
 The goal should be about telling a compelling story of customer satisfaction, from many perspectives, captivating and with clear next steps to take.
