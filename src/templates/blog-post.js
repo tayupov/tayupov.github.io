@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import kebabCase from "lodash/kebabCase"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -9,8 +10,8 @@ const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
-  const siteTitle = site.siteMetadata?.title || `Title`
-
+  const siteTitle = site.siteMetadata.title
+  const { title, date, tags } = post.frontmatter
   return (
     <Layout location={location} title={siteTitle}>
       <article
@@ -19,13 +20,26 @@ const BlogPostTemplate = ({
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <h1 itemProp="headline">{title}</h1>
+          <p>{date}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+        {tags && (
+          <p>
+            <span>Tags: </span>
+            <ul style={{ listStyleType: "none", display: "inline" }}>
+              {tags.map((tag, index) => (
+                <li style={{ display: "inline" }} key={tag}>
+                  <Link to={`/tags/${kebabCase(tag)}`}>{tag}</Link>
+                  {index < tags.length - 1 ? ", " : ""}
+                </li>
+              ))}
+            </ul>
+          </p>
+        )}
         <hr />
         <footer>
           <Bio />
@@ -91,6 +105,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

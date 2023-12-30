@@ -2,6 +2,7 @@
 title: 54 wooden blocks
 date: "2023-12-03"
 description: ""
+tags: ["Product Management", "Interviews"]
 published: true
 ---
 

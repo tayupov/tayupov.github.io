@@ -1,11 +1,8 @@
 ---
-
 title: "NPS Pitfalls"
-
 date: "2023-12-07"
-
 description: "NPS is a popular metric to measure customer satisfaction. But there are a few things you need to consider when using it."
-
+tags: ["NPS", "Customer Satisfaction"]
 published: true
 
 ---
