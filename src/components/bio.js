@@ -45,8 +45,8 @@ const Bio = () => {
       {author?.name && (
         <>
           <p>
-            Thoughts and feelings on software development, product
-            management, music and games. Written by <strong>{author.name}</strong>.{` `}
+            Thoughts and feelings on software development and product
+            management. Written by <strong>{author.name}</strong>.{` `}
           </p>
         </>
       )}
