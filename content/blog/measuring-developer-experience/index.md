@@ -10,7 +10,7 @@ Not all metrics are created equal. Developers’ experience is often only subjec
 
 Most recently, McKinsey entered the debate, saying: [“Yes, you can measure software developer productivity”](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity), only to be met with harsh criticism of their approach.
 
-Read the [full article](https://medium.com/adevinta-tech-blog/beyond-code-measuring-developer-experience-a456ee541c29) on the Adevinta Tech Blog. 
+**Read the [full article](https://medium.com/adevinta-tech-blog/beyond-code-measuring-developer-experience-a456ee541c29) on the Adevinta Tech Blog.**
 
 
 
