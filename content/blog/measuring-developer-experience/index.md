@@ -1,5 +1,5 @@
 ---
-title: "Beyond Code: Measuring Developer Experience"
+title: "Measuring Developer Experience"
 date: "2024-01-23"
 description: ""
 tags: ["Developer Experience", "Surveys"]

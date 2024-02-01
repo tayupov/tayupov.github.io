@@ -233,6 +233,7 @@ span + em {
   font-size: var(--fontSize-0);
   display: flex;
   justify-content: center;
+  margin-top: .5rem;
 }
 
 /* Link */
