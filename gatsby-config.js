@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Against the grain`,
+    title: `Roman Tayupov`,
     author: {
       name: `Roman Tayupov`,
     },
