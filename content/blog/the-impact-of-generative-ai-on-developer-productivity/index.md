@@ -1,5 +1,5 @@
 ---
-title: "Measuring the Impact of Generative AI on Developer Productivity"
+title: "The Impact of Generative AI on Developer Productivity"
 date: "2024-05-07"
 tags: ["Generative AI", "GPT", "GitHub Copilot", "Developer Experience", "Developer Productivity", "Surveys"]
 published: true
