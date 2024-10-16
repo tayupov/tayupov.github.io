@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import kebabCase from "lodash/kebabCase"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -53,6 +54,19 @@ const BlogIndex = ({ data, location }) => {
                       }}
                       itemProp="description"
                     />
+                    {post.frontmatter.tags && (
+                      <div>
+                        <span>Tags: </span>
+                        <ul style={{ listStyleType: "none", display: "inline" }}>
+                          {post.frontmatter.tags.map((tag, index) => (
+                            <li style={{ display: "inline" }} key={tag}>
+                              <Link to={`/tags/${kebabCase(tag)}`}>{tag}</Link>
+                              {index < post.frontmatter.tags.length - 1 ? ", " : ""}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </section>
                 </article>
               </li>
@@ -90,6 +104,7 @@ export const pageQuery = graphql`
           title
           description
           published
+          tags
         }
       }
     }
