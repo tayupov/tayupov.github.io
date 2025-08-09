@@ -28,6 +28,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "cpx": "^1.5.0",
     "gh-pages": "^6.1.0",
     "prettier": "^2.8.8"
   },
@@ -41,7 +42,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && rm -rf docs && cpx \"public/**\" docs",
     "dev": "gatsby develop",
     "deploy": "gatsby build && gh-pages -d public -b main",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
