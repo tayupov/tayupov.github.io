@@ -1,7 +1,7 @@
 ---
 title: "GenAI and Developer Productivity"
 date: "2024-05-07"
-tags: ["Generative AI", "GPT", "GitHub Copilot", "Developer Experience", "Developer Productivity", "Surveys"]
+tags: ["Generative AI", "Developer Experience"]
 published: true
 ---
 

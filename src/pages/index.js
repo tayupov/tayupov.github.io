@@ -56,7 +56,8 @@ const BlogIndex = ({ data, location }) => {
                     />
                     {post.frontmatter.tags && (
                       <div>
-                        <span>Tags: </span>
+                        <br/>
+                        <span><strong>Tags: </strong></span>
                         <ul style={{ listStyleType: "none", display: "inline" }}>
                           {post.frontmatter.tags.map((tag, index) => (
                             <li style={{ display: "inline" }} key={tag}>
