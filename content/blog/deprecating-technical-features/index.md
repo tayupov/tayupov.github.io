@@ -89,9 +89,11 @@ After understanding user impact, you want to look closer at what this customer m
 You want to avoid basing your reasoning for deprecation solely on low usage. Usually this is a good indicator that you should have a closer look though. If your biggest customer is in the low usage bracket, you will need to make a good case for deprecation.
 
 
+<!-- 
+
 **WIP: This article is not finished yet. Stay tuned 🤞🏻**
 
-<!-- - stakeholders
+- stakeholders
 
 - success metrics
 

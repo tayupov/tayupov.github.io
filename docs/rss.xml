@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Thoughts on software development and product management. Written by Roman Tayupov.]]></description><link>https://tayupov.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 10 Aug 2025 16:14:10 GMT</lastBuildDate><item><title><![CDATA[How I use AI]]></title><description><![CDATA[For a PM, AI should stand for “An Intern”. Summarise this, organize that, do some market research, let me dictate an idea and  draft it into…]]></description><link>https://tayupov.github.io/how-i-use-ai/</link><guid isPermaLink="false">https://tayupov.github.io/how-i-use-ai/</guid><pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;For a PM, AI should stand for “An Intern”.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Thoughts on software development and product management. Written by Roman Tayupov.]]></description><link>https://tayupov.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 07 Sep 2025 19:27:45 GMT</lastBuildDate><item><title><![CDATA[How I use AI]]></title><description><![CDATA[For a PM, AI should stand for “An Intern”. Summarise this, organize that, do some market research, let me dictate an idea and  draft it into…]]></description><link>https://tayupov.github.io/how-i-use-ai/</link><guid isPermaLink="false">https://tayupov.github.io/how-i-use-ai/</guid><pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;For a PM, AI should stand for “An Intern”.&lt;/p&gt;
 &lt;p&gt;Summarise this, organize that, do some market research, let me dictate an idea and  draft it into something coherent. It should do the heavy-lifting on time intensive, repetitive and structured tasks to free up time so I can focus on product strategy, creative problem-solving, and stakeholder management.&lt;/p&gt;
 &lt;p&gt;In this post, I’ll walk through the different ways I use AI day-to-day to boost my productivity as a PM.&lt;/p&gt;
 &lt;h2&gt;Brainstorming&lt;/h2&gt;
@@ -413,8 +413,11 @@ Surveys are somewhere between qualitative and quantitative data. Keep in midn th
     &lt;/span&gt;
 &lt;em&gt;Customer Matrix&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;You want to avoid basing your reasoning for deprecation solely on low usage. Usually this is a good indicator that you should have a closer look though. If your biggest customer is in the low usage bracket, you will need to make a good case for deprecation.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;WIP: This article is not finished yet. Stay tuned 🤞🏻&lt;/strong&gt;&lt;/p&gt;
-&lt;!-- - stakeholders
+&lt;!-- 
+
+**WIP: This article is not finished yet. Stay tuned 🤞🏻**
+
+- stakeholders
 
 - success metrics
 

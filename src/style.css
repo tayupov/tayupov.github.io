@@ -281,20 +281,21 @@ a:focus {
   margin-bottom: var(--spacing-0);
 }
 
-.post-list-item a {
-  text-decoration: none;
-  background-image: linear-gradient(var(--color-highlight), var(--color-highlight));
-  background-size: 0% 0.1em;
-  background-position-y: 100%;
-  background-position-x: 0%;
-  background-repeat: no-repeat;
-  transition: background-size 0.2s ease-in-out;
-}
+@media (hover: hover) and (pointer: fine) {
+  .post-list-item a {
+    background-image: linear-gradient(var(--color-highlight), var(--color-highlight));
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+  }
 
-.post-list-item a:hover,
-.post-list-item a:focus,
-.post-list-item a:active {
-background-size: 100% 0.1em;
+  .post-list-item a:hover,
+  .post-list-item a:focus,
+  .post-list-item a:active {
+    background-size: 100% 0.1em;
+  }
 }
 
 .post-list-item h2 {
